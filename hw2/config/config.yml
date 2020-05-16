@@ -1,5 +1,5 @@
 MODEL:
-  OUTPUT_PATH: "/home/apie/projects/ml_hw/hw2/weights/model.pth"
+  OUTPUT_PATH: "weights/model.pth"
   LR: 0.001
   EPOCH: 5
 
@@ -10,12 +10,12 @@ DATA:
   TRAIN_BATCH_SIZE: 32
   TEST_BATCH_SIZE: 2
   VALIDATION_SIZE: 0.2
-  NUM_WORKERS: 4
+  NUM_WORKERS: 0
 
 PATH:
-  TRAIN_SET: "/home/apie/projects/ml_hw/hw2/Cat_Dog_data/train"
-  TEST_SET: "/home/apie/projects/ml_hw/hw2/Cat_Dog_data/test"
+  TRAIN_SET: "mango/C1-P1_Train/"
+  TEST_SET:  "mango/C1-P1_Dev/"
 
 DEVICE:
-  GPU: 1
+  GPU: 0
   CUDA: True

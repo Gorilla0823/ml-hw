@@ -7,7 +7,7 @@ _C = CN()
 _C.PATH = CN()
 _C.MODEL = CN()
 _C.DEVICE = CN()
-_C.DATA = CN()
+_C.DATA = CN()  
 
 _C.DEVICE.GPU = 1 # <gpu_id>
 _C.DEVICE.CUDA = True # use gpu or not
